@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.input-div>input{
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.table::-webkit-scrollbar{
+    background: black;
+}
+
+.tasks-div{
+    padding-left: 5px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
